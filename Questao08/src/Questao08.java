@@ -11,7 +11,7 @@ public class Questao08 {
         }
     }
 
-    // Lista simplesmente encadeada
+    // Lista encadeada simples
     static class Lista {
         No inicio;
 

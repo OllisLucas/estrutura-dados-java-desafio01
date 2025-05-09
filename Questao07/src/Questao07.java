@@ -83,9 +83,9 @@ public class Questao07 {
         lista.inserir(20);
         lista.inserir(30);
 
-        lista.exibir(); // Deve mostrar: 30 20 10
+        lista.exibir(); 
 
-        lista.remover(); // Remove 30
-        lista.exibir(); // Deve mostrar: 20 10
+        lista.remover(); 
+        lista.exibir(); 
     }
 }

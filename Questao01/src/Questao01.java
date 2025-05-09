@@ -12,7 +12,7 @@ public class Questao01 {
                 while (!pilha.isEmpty()) {
                     resultado.append(pilha.pop());
                 }
-                resultado.append(c); // espaço ou ponto
+                resultado.append(c); 
             }
         }
 

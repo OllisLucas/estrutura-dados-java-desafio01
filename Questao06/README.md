@@ -1,3 +1,3 @@
 # 🔹 Questão 6:
 
-Igual à questão 5, só que usando filas em vez de pilhas. Fiz tudo de novo: comparar filas, copiar, contar pares e ímpares e calcular estatísticas. Usei ` LinkedList` como fila e clonei pra não perder os dados.
+Essa questão é igual à anterior, só que agora com filas em vez de pilhas. Então, em vez de usar `Stack`, eu usei `Queue` com `LinkedList`. Como as filas não têm acesso direto aos elementos pelo meio, eu usei um loop para percorrer e fazer as comparações ou cálculos, clonando as filas sempre que precisava manipular sem perder os dados. A única diferença é que, nas filas, os dados são acessados no estilo FIFO (primeiro que entra é o primeiro que sai), mas as funções são bem parecidas com as da questão anterior.

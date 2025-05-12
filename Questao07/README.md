@@ -1,3 +1,3 @@
 # 🔹 Questão 7:
 
-Aqui era pra fazer uma lista encadeada, mas usando vetor. Cada posição do vetor tem um nó com valor e o índice do próximo. Também fiz um controle das posições livres com um tipo de pilha pra reutilizar espaço.
+Nessa questão, precisei fazer uma lista encadeada sem usar ponteiros de verdade. Em vez disso usei um vetor de nós, e cada nó tem um campo que indica o "índice" do próximo elemento no vetor. Também criei uma lista de posições livres, que funciona como uma pilha de índices disponíveis pra reaproveitar espaço quando remove um elemento. Assim consigo simular um encadeamento só com índices, como se fossem ponteiros, mas tudo dentro de um array fixo.

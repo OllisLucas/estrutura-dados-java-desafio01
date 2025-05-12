@@ -1,3 +1,3 @@
 # 🔹 Questão 9:
 
-Era pra trabalhar com lista duplamente encadeada. Fiz as funções `Locate` pra achar uma posição, `InsereP` pra inserir num ponto específico, e `RemovaP` pra remover da posição. Tudo usando os ponteiros anterior e próximo.
+Essa questão pede para trabalhar com uma lista duplamente encadeada.Primeiro, eu montei a estrutura da lista com os campos anterior e proximo. Depois fiz a função Locate, que anda até achar o elemento da posição desejada. Em seguida, criei a InsereP, que insere um novo nó exatamente na posição pedida (usando o Locate). E por fim, a RemovaP faz a remoção de um item da posição P, também usando o Locate pra encontrar o nó certo. Tudo isso foi feito considerando os casos de início, meio e fim da lista.

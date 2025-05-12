@@ -1,3 +1,3 @@
 # 🔹 Questão 5:
 
-Nessa questão, comparei duas pilhas pra ver se eram iguais, calculei maior, menor e média, copiei os elementos de uma pra outra e contei quantos eram pares ou ímpares. Sempre clonei a pilha pra não perder os dados.
+Essa questão tem várias partes, mas todas envolvem o uso de duas pilhas. Primeiro, precisei comparar duas pilhas e ver se são iguais — então fiz uma cópia delas para não perder os dados e fui desempilhando elemento a elemento para comparar. Depois fiz uma função para encontrar o maior, o menor e calcular a média dos valores da pilha. Também criei uma função que copia os elementos de uma pilha para outra, mantendo a ordem. E por fim, fiz duas funções simples que contam quantos valores são pares e quantos são ímpares. Usei `clone()` ou pilhas auxiliares sempre que precisava analisar sem modificar a original.

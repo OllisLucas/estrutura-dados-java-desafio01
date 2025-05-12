@@ -1,3 +1,3 @@
 # 🔹 Questão 2:
 
-A tarefa era ordenar uma pilha usando só outra pilha auxiliar. Fui tirando os elementos e colocando no lugar certo na pilha auxiliar, como se fosse um insertion sort. No final, a pilha auxiliar ficou ordenada com os menores valores no topo.
+Aqui precisei colocar os números da pilha em ordem crescente, só que só podia usar outra pilha pra ajudar. A lógica foi ir tirando um por um da pilha original e colocando na pilha auxiliar no lugar certo. Se o número não era o maior, eu tirava os que estavam maiores e colocava de volta depois. No final, a pilha auxiliar ficou completamente ordenada, com o menor número no topo.

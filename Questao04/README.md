@@ -1,3 +1,3 @@
 # 🔹 Questão 4:
 
-Criei um TAD que funciona como uma pilha, mas usando uma lista duplamente encadeada por baixo. Insere e remove sempre do topo, que é o início da lista. Funciona como pilha, mas com encadeamento duplo.
+Nessa questão, a ideia era criar uma estrutura que se comporta como uma pilha, mas usando uma lista duplamente encadeada em vez da Stack pronta do Java. Então eu criei um TAD chamado `PilhaLD` que tem nós com ponteiros pra frente e pra trás. Como a pilha sempre insere e remove no topo, eu decidi usar o início da lista como o topo da pilha. Aí implementei os métodos `push`, `pop`, `peek` e um método `isEmpty`. Com isso, consigo empilhar e desempilhar valores mantendo o estilo LIFO, mas agora com ponteiros duplos.

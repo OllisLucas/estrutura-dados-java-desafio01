@@ -1,3 +1,3 @@
 # 🔹 Questão 1:
 
-A ideia era inverter as letras de cada palavra usando uma pilha, mas sem mudar a ordem das palavras. Empilhei as letras até encontrar um espaço, aí desempilhei pra inverter e continuei. Assim, cada palavra fica ao contrário, mas na mesma posição.
+Nessa questão, a ideia era inverter as letras de cada palavra da frase usando pilha, mas sem mudar a ordem das palavras. Então o que eu fiz foi empilhar as letras de cada palavra e, quando chegava num espaço, eu desempilhava tudo (o que inverte a palavra) e colocava no resultado. Assim, cada palavra fica ao contrário, mas continua no mesmo lugar da frase.

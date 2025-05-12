@@ -1,3 +1,3 @@
 # 🔹 Questão 8:
 
-A gente precisava criar uma lista com a união sem repetição de duas listas e outra com a interseção. Fui percorrendo e usando uma função ` contem` pra evitar repetição. Pra interseção, só adicionei se estivesse nas duas.
+Aqui, a ideia era trabalhar com duas listas encadeadas e criar duas novas: uma com todos os elementos das duas sem repetir (união) e outra só com os que aparecem nas duas (interseção). Pra isso, percorri cada lista e usei uma função de busca pra checar se o valor já estava presente na nova lista antes de adicionar. Isso evita duplicatas na união e garante que só os valores em comum fossem inseridos na interseção. Usei listas simples com nós que guardam valor e ponteiro pro próximo.
